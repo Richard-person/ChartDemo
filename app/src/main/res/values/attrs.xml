@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LineChart">
+        <attr name="yMarginBottom" format="dimension"/>
+        <attr name="yRulingHeight" format="dimension"/>
+        <attr name="yTextMarginTop" format="dimension"/>
+        <attr name="yTextSize" format="dimension"/>
+        <attr name="yAxleColor" format="color"/>
+        <attr name="yAxleTextColor" format="color"/>
+
+        <attr name="titleTextSize" format="dimension"/>
+        <attr name="titleTextColor" format="color"/>
+        <attr name="titleTextBgColor" format="color"/>
+
+        <attr name="pointTextSize" format="dimension"/>
+        <attr name="pointTextColor" format="color"/>
+        <attr name="pointCircleColor" format="color"/>
+        <attr name="pointLineColor" format="color"/>
+        <attr name="pointSize" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="HistogramChart">
+        <attr name="h_yAxleColor" format="color"/>
+        <attr name="h_yAxleTextColor" format="color"/>
+        <attr name="h_yTextMarginTop" format="dimension"/>
+        <attr name="h_yTextSize" format="dimension"/>
+        <attr name="h_columnarColor" format="color"/>
+        <attr name="h_columnarTextColor" format="color"/>
+        <attr name="h_columnarTextSize" format="dimension"/>
+    </declare-styleable>
+</resources>
